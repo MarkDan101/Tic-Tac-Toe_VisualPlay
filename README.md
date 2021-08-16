@@ -12,8 +12,6 @@ against the computer using a real board and a marker.
 - It is recommendable to not completely cover the center cell.
 
 
-[![Tic Tac Toe with OpenCV and Keras](data/thumbnail.png)](https://www.youtube.com/watch?v=u0T6KRTXdio "Tic Tac Toe with OpenCV and Keras")
-
 
 ## How to win?
 Since the computer uses the [alphabeta algorithm](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning), it is
@@ -31,8 +29,6 @@ that the model has an accuracy greater than 0.96, but when evaluated on the test
 set it achieved lower performance.
 
 
-![Model Summary Statistics](data/summary.png)
-
 
 One possible explanation for the overfitting might be due to:
 1. **Limited dataset:** even though the model is small, the dataset consists
@@ -49,5 +45,3 @@ Nevertheless, I haven't had any misclassifications errors while playing
 tic-tac-toe. Needless to say that these problems will be addressed in the
 future just to make sure this project runs seamlessly.
 
-## Resources
-I used [CWoebker's alphabeta script](https://cwoebker.com/posts/tic-tac-toe) and added some documentation to it.
